@@ -1,0 +1,49 @@
+.linha1, .linha4, .linha7,.linha10,.linha13{
+    background-color: lightgreen;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    min-height: 300px;
+}
+ 
+.linha2, .linha5, .linha8, .linha11{
+    background-color: plum;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    min-height: 300px;
+}
+ 
+.linha3, .linha6, .linha9, .linha12{
+    background-color: gray;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    min-height: 300px;
+}
+ 
+.linha1, .linha4{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:start;
+    align-items: center;
+}
+ 
+.linha2, .linha5{
+    display: flex;
+    justify-content: center;
+    align-items: start;
+}
+ 
+.linha3, .linha12{
+    display: flex;
+    justify-content: end;
+    align-items: start;
+}
+.linha6, .linha8, .linha9, .linha10, .linha12, .linha13{
+    display: flex;
+    justify-content: space-around;
+}
+ 
+.linha7, .linha11{
+    display: flex;
+    justify-content: space-between;
+}
+ 
